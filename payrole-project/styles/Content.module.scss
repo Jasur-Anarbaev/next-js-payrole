@@ -1,0 +1,43 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 120px;
+    text-align: center;
+
+    h1 {
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #0A112F;
+    }
+
+    h1 span {
+        color: #3981F7;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #585860;
+        padding-bottom: 40px;
+    }
+
+    button {
+        padding: 22px 32px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        background: #0A112F;
+        border-radius: 100px;
+    }
+
+}

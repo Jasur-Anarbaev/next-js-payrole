@@ -1,0 +1,186 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.categories {
+    margin-top: 88px;
+
+    h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #0A112F;
+    }
+
+    p {
+        margin: 0 auto;
+        max-width: 805px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #585860;
+    }
+
+    .category__items {
+        margin: 0 auto;
+        margin-top: 64px;
+        width: 840px;
+        height: 69px;
+        background: #F5F9FF;
+        border-radius: 40px;
+        padding: 8px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        item {
+            border: none;
+            padding: 13px 32px;
+            background: #FFFFFF;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            color: #0A112F;
+        }
+
+        .item {
+            padding: 8px 16px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            color: #9096A2;
+        }
+
+        .item_hover {
+            padding: 8px 16px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 16px rgba(0, 35, 82, 0.08);
+            border-radius: 100px;
+            color: #0A112F;
+        }
+    }
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+
+    .boxes {
+        &__content {
+            margin-top: 64px;
+            width: 400px;
+            height: 420px;
+            background: #FFFFFF;
+            border: 2px solid #F4F4F5;
+            border-radius: 24px;
+
+            .boxes__inner {
+                padding: 56px 50px;
+
+                &_items {
+                    text-align: center;
+
+                    .boxes__items_img {
+                        img {
+                            border-radius: 100px;
+                            padding: 10px 10px;
+                            background: #FFFFFF;
+                            box-shadow: 0px 8px 64px rgba(10, 17, 47, 0.1);
+                        }
+                    }
+
+                    h1 {
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 150%;
+                        text-align: center;
+                        color: #0A112F;
+                    }
+
+                    .boxes__btn {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        button {
+                            border: none;
+                            padding: 8px 16px;
+                            background: #EBF3FF;
+                            border-radius: 100px;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 135%;
+                            letter-spacing: 0.02em;
+                            color: #3981F7;
+                        }
+                    }
+
+                    p {
+                        padding-top: 15px;
+                        margin: 0 auto;
+                        max-width: 300px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        text-align: center;
+                        color: #70707A;
+                    }
+                }
+
+
+
+            }
+        }
+    }
+}
+
+// Our start 
+
+.our {
+    margin: 0 auto;
+    margin-top: 120px;
+
+    // box-shadow: 0px 8px 64px rgba(10, 17, 47, 0.1);
+    width: 880px;
+    // height: 725px;
+    background: #FFFFFF;
+    border-radius: 24px;
+
+    &__items {
+        padding: 64px 84px;
+
+        h2 {
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 120%;
+            letter-spacing: -0.02em;
+            color: #0A112F;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #585860;
+        }
+
+        &_img {
+            margin-top: 90px;
+        }
+    }
+}

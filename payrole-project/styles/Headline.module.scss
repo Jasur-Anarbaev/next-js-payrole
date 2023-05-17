@@ -1,0 +1,73 @@
+.main {
+    .container {
+        width: 95%;
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+
+    &__inner {
+        margin-top: 120px;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        max-width: 950px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 100px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #000929;
+    }
+
+    &__logo span {
+        color: #3981F7;
+    }
+
+    &__p {
+        margin-top: 24px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #0A112F;
+    }
+
+    &__blue {
+        margin-top: 40px;
+        text-align: center;
+
+        .main__btn {
+            padding: 22px 32px;
+            border: none;
+            background: #0A112F;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+        }
+    }
+
+    &__contries {
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+
+        .main__text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 160%;
+            color: #585860;
+        }
+
+        .main__text span {
+            color: #0A112F;
+        }
+    }
+
+}

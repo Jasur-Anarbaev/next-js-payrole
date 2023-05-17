@@ -1,0 +1,315 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 200px rgba(232, 249, 247, 0.2);
+}
+
+.about {
+    &__items {
+        padding: 88px;
+
+        h1 {
+            margin: 0 auto;
+            max-width: 950px;
+            font-weight: 600;
+            font-size: 80px;
+            line-height: 110%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #0A112F;
+        }
+
+        h1 span {
+            color: #3981F7;
+        }
+
+        p {
+            margin: 24px auto;
+            max-width: 660px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 140%;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #585860;
+
+        }
+
+        .about__background {
+            margin-top: 72px;
+            width: 1060px;
+            height: 300px;
+            background: #0A112F;
+            border-radius: 24px;
+        }
+
+        h2 {
+            padding-top: 48px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 160%;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+        }
+
+        .about__icons_item {
+            padding: 32px 48px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .icons {
+            width: 300px;
+            height: 134px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+        }
+
+        .icons__inner {
+            padding: 24px 24px;
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .price_text {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+
+        b {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 145%;
+            color: #9096A2;
+        }
+
+    }
+}
+
+
+.our {
+    margin-top: 120px;
+
+    .our__misson_text {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .our_text {
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 120%;
+            letter-spacing: -0.02em;
+            color: #0A112F;
+        }
+
+        .our_text span {
+            color: #3981F7;
+        }
+
+        .our_text2 {
+            max-width: 510px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #585860;
+
+        }
+    }
+
+    .misson_img {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .misson__target {
+        img {
+            position: relative;
+            top: 40px;
+            left: 70px;
+        }
+    }
+
+    .misson__item {
+        margin: 0 auto;
+        background: #F5F9FF;
+        border-radius: 24px;
+        width: 840px;
+        height: 188px;
+
+        .info_text {
+            padding: 56px 110px;
+
+            .subtitle {
+                max-width: 620px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 160%;
+                text-align: center;
+                letter-spacing: -0.01em;
+                color: #0A112F;
+
+            }
+        }
+    }
+}
+
+// Our Investors start 
+
+.investors {
+    // text-align: center;
+    margin-top: 120px;
+
+    &__decs {
+        .decs_logo {
+            text-align: center;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 120%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #0A112F;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            text-align: center;
+            color: #585860;
+        }
+    }
+
+    .investori__icons {
+        margin-top: 64px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+    }
+}
+
+// Meet start 
+.meet {
+    margin-top: 120px;
+
+    h2 {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #0A112F;
+    }
+
+    .our__buttons {
+        margin-top: 64px;
+        width: 1155px;
+        height: 69px;
+        background: #F5F9FF;
+        border-radius: 40px;
+        padding: 8px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            border: none;
+            padding: 13px 32px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 16px rgba(0, 35, 82, 0.08);
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            color: #0A112F;
+        }
+
+        .text {
+            padding: 8px 16px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            color: #9096A2;
+
+
+        }
+
+        .text_blue {
+            padding: 8px 16px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 16px rgba(0, 35, 82, 0.08);
+            border-radius: 100px;
+            color: #0A112F;
+            
+
+        }
+    }
+}
+
+
+// Our users start 
+.our__user {
+    display: flex;
+    justify-content: space-between;
+    // gap: 32px   ;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 56px;
+
+    &_content {
+        width: 296px;
+        height: 384px;
+        background: #FFFFFF;
+        border: 1px solid #E4E4E7;
+        border-radius: 24px;
+    }
+
+    .content__blog {
+        padding: 48px 19px;
+        text-align: center;
+
+
+        h3 {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 150%;
+            text-align: center;
+            color: #0A112F;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            text-align: center;
+            font-feature-settings: 'ss03' on;
+            color: #70707A;
+
+        }
+
+        .user__icons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            align-items: center;
+        }
+    }
+}

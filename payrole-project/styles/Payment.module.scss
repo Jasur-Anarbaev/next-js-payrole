@@ -1,0 +1,204 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+.payment {
+    margin: 0 auto;
+    // padding: 120px 200px;
+    width: 880px;
+    height: 725px;
+    background: #fff;
+    border-radius: 24px;
+
+    &__inner {
+        h1 {
+
+            font-weight: 600;
+            font-size: 80px;
+            line-height: 110%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #0A112F;
+        }
+
+        h1 span {
+            color: #3981F7;
+        }
+
+        p {
+            margin: 0 auto;
+            max-width: 660px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            text-align: center;
+            color: #585860;
+        }
+
+        .card {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            margin-top: 50px;
+            background: #fff;
+            border-radius: 16px;
+            // width: 438px;
+            // height: 260px;
+
+            .card__left {
+                padding-top: 24px;
+                display: flex;
+                gap: 109px;
+                align-items: center;
+            }
+
+            .card__icon {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                align-items: center;
+
+                .card__text {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    font-feature-settings: 'ss03' on;
+                    color: #0A112F;
+
+                }
+            }
+
+            .day {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #3981F7;
+            }
+
+            .card__icons {
+                padding: 8px 72px;
+                display: flex;
+                gap: 8px;
+                align-items: center;
+            }
+
+            .client__user {
+                margin-top: 16px;
+                width: 350px;
+                // height: 112px;
+                padding: 16px 16px;
+                border: 1px solid #E7EAEE;
+                border-radius: 16px;
+
+                h4 {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    font-feature-settings: 'ss03' on;
+                    color: #0A112F;
+                }
+            }
+
+            .client__info {
+                display: flex;
+                gap: 24px;
+                align-items: center;
+
+                .user__name {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #15191E;
+                }
+
+                span {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #15191E;
+                    opacity: 0.5;
+                }
+
+                button {
+                    padding: 10px 16px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 140%;
+                    letter-spacing: -0.01em;
+                    color: #FFFFFF;
+                    background: #0A112F;
+                    border-radius: 100px;
+                }
+            }
+
+        }
+
+
+        .card__right {
+
+            background: #fff;
+            border-radius: 16px;
+            // width: 532px;
+            // height: 264px;
+
+            .card__title {
+                padding: 24px 24px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                color: #0A112F;
+            }
+
+            .card__subtitle {
+                padding: 16px 24px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                letter-spacing: -0.01em;
+                color: rgba(10, 17, 47, 0.5);
+
+            }
+
+            .card__subtitle span {
+                color: #0A112F;
+
+            }
+
+            .card__inner {
+                width: 360px;
+                // height: 124px;
+                padding: 16px 24px;
+                background: #F7F8FB;
+                border-radius: 16px;
+
+                .card__text {
+
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+
+                    color: #627188;
+                }
+
+                .card__more {
+                    margin-top: 8px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #3981F7;
+                }
+            }
+
+
+        }
+
+
+
+
+
+
+    }
+}

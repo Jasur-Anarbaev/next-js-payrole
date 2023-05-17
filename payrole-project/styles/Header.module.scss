@@ -1,0 +1,164 @@
+.header {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 200px rgba(232, 249, 247, 0.2);
+
+  .container {
+    width: 95%;
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+
+  Select {
+    width: 150px;
+  }
+
+
+
+  // Heaader start
+  &__inner {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__navbar {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+
+    select {
+      border: none;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 160%;
+      letter-spacing: -0.01em;
+      color: #0A112F;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 160%;
+      letter-spacing: -0.01em;
+      color: #0A112F;
+    }
+  }
+
+  &__logins {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .login {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.01em;
+    color: #0A112F;
+  }
+
+  button {
+    border: none;
+    padding: 11px 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.01em;
+    color: #0A112F;
+    background: #F4F4F5;
+    border-radius: 100px;
+
+  }
+}
+
+
+.nav_exaple {
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.hovers {
+
+  position: relative;
+}
+
+.hovers:hover .hover__example {
+
+  display: inline;
+
+}
+
+
+
+.hover__example {
+  position: absolute;
+  right: -230px;
+  top: 96px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0px 44px 116px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  z-index: 1;
+  width: 650px;
+  // height: 450px;
+
+  .example__inner {
+    padding: 32px 32px;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #70707A;
+  }
+
+  .example__icons {
+    padding-top: 24px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .icon {
+    img {
+      padding: 12px 12px;
+      background: #F5F9FF;
+      border-radius: 100px;
+
+    }
+  }
+
+
+  .subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'ss03' on;
+    color: #0A112F;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    font-feature-settings: 'ss03' on;
+    color: #70707A;
+  }
+
+
+
+
+
+}
